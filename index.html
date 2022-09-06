@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Axia Commerce</title>
+</head>
+<body id="body">
+    <!--NavBar Axia Commerce-->
+    <header>
+        <nav class="nav">
+          <div class="nav__center container">
+            <div class="nav__logo">
+              <img src="./svg/menu.svg">
+              <img src="./svg/logo.svg" alt="logo-Axia-Commerce">
+            </div>
+            <ul class="nav__list">
+              <span>
+                <a href="./index.html">
+                  <img src="./svg/search.svg">
+                </a>
+              </span>
+              <div class="carrito__icon">
+                <img src="./svg/cart.svg">
+                <span class="item__total2"></span>
+              </div>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+    <!-- Productos (Cervezas)-->
+    <section class="productos">
+        <div class="productos__center">
+
+        </div>
+    </section>
+
+
+    <!--Footer Axia Commerce-->
+    <footer>
+        <div class="container1">
+            <h1 class="contact">¿Podemos ayudarle?</h1>
+            <div class="chat"><a href="https://github.com/CAndres438"><img src="./svg/intercom.svg"></a></div>
+            <div class="chat"><a href="https://www.linkedin.com/in/carlos-andres-ortiz-programmer/"><img src="./svg/phone.svg"></a></div>
+        </div>
+        <div class="container2">
+            <a href="#"><h1>Sobre Nosotros</h1></a>
+            <a href="#"><h1>Medidas de Seguridad</h1></a>
+            <a href="#"><h1>Cómo Mercar</h1></a>
+            <a href="#"><h1>Proveedores</h1></a>
+            <a href="#"><h1>Contáctenos</h1></a>
+            <a href="#"><h1>Zona de Cobertura</h1></a>
+            <div class="insta"><a href="https://www.instagram.com/candres.o/"><img src="./svg/instagram.svg" alt="Logo de instagram"></a></div> 
+        </div>
+    </footer>
+
+
+
+     <!-- Filtro de cervezas Modal-->
+     <button class="filters_change">FILTRAR<img src="./svg/filters.svg" alt="botón para filtrado">
+        <span class="item__total"></span></button>
+     <div class="modal-bg"></div>
+     <div class="modal">
+         <span class="close">
+             <img src="./svg/close.svg" alt="ícono de cierre (equis)">
+         </span>
+         <div class="title">Filtros</div>
+         <hr/>
+         <form name="form1" id="forms">
+         <div class="content">
+            <div class="optionCheck">
+                <input name="filters" type="checkbox" id="Rubia" value=1>
+                <label for="Rubia">Rubia &nbsp &nbsp</label>
+            </div>
+            <hr class="black"/>
+           
+            <div class="optionCheck">
+                <input name="filters" type="checkbox" id="Morena" value=2>
+                <label for="Morena">Morena</label>
+            </div>
+            <hr/>
+            <div class="optionCheck">
+                <input name="filters" type="checkbox" id="Roja" value=3>
+                <label for="Roja">Roja &nbsp &nbsp &nbsp</label>
+            </div>
+            <hr/>
+         </div>
+        </form>
+         <div class="buttons-filtrar">
+            <button class="clean">LIMPIAR</button>
+            <button class="filter">FILTRAR <img src="./svg/filters.svg" alt="símbolo de filtro">
+                <span class="item__total1"></span>
+            </button>
+         </div>
+     </div>
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>
